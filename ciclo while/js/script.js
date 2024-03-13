@@ -7,13 +7,17 @@ const list = [
     'Pomodori',
     'Piatti pronti'
 ];
-const shoppingList = document.querySelector('.lista-spesa');
-//stampo sulla pagina indvidualmente gli elementi della lista, usando il ciclo for
+
+
+//stampo sulla pagina indvidualmente gli elementi della lista, usando il ciclo while
+
 let i = 0;
-while(i < list.lenght) {
-    console.log(list[i])
+while(i < list.length) {
+    console.log(list[i]);
+
     i++;
 }
+
 
 
 
